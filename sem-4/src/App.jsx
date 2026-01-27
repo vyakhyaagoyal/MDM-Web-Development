@@ -1,3 +1,4 @@
+import About from './About'
 import './App.css'
 import Greet from './Greet'
 
@@ -10,7 +11,8 @@ function App() {
       <SideNav/>
       <MainContent/>
       <Footer/> */}
-      <Greet/>
+      {/* <Greet/> */}
+      <About/>
     </>
   )
 }
