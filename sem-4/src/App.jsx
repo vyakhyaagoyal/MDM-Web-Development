@@ -1,20 +1,34 @@
 import About from './About'
 import './App.css'
+import FunctionalComponent from './FunctionalComponent'
+import ClassComponent from './ClassComponent'
 import Greet from './Greet'
+import React from 'react'
 
-function App() {
-
+export default function App() {
   return (
-    <>
-      {/* <h1>Hello!</h1> */}
-      {/* <Header/>
-      <SideNav/>
-      <MainContent/>
-      <Footer/> */}
-      {/* <Greet/> */}
-      <About/>
-    </>
+    <div>
+      <FunctionalComponent name="Alice" city="Wonderland" />
+      <ClassComponent name="Bob" city="Builderland" />
+      
+    </div>
   )
 }
 
-export default App
+
+// function App() {
+
+//   return (
+//     <>
+//       {/* <h1>Hello!</h1> */}
+//       {/* <Header/>
+//       <SideNav/>
+//       <MainContent/>
+//       <Footer/> */}
+//       {/* <Greet/> */}
+//       <About/>
+//     </>
+//   )
+// }
+
+// export default App

@@ -1,25 +1,26 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-// import App from './App.jsx'
+import App from './App.jsx'
 import React, { Component } from 'react';
 
 let m="vivo"
+let year=2024
 
 //class component example
 export default class Mobile extends Component{
   render(){
     return(
-      <h1>I have {this.props.brand}</h1>
+      <h1>I have {this.props.brand} from {this.props.year} and it is {this.props.quality}</h1>
     )
   }
 }
 
 createRoot(document.getElementById('root')).render(
   // <StrictMode>
-  //   <App />
+    <App />
   // </StrictMode>,
-  <Mobile brand={m}/>
+  // <Mobile brand={m} year={year} quality="good"/>
 )
 
 
