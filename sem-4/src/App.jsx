@@ -4,13 +4,14 @@ import FunctionalComponent from './FunctionalComponent'
 import ClassComponent from './ClassComponent'
 import Greet from './Greet'
 import React from 'react'
+import EvenOdd from './EvenOdd'
 
 export default function App() {
   return (
     <div>
-      <FunctionalComponent name="Alice" city="Wonderland" />
-      <ClassComponent name="Bob" city="Builderland" />
-      
+      {/* <FunctionalComponent name="Alice" city="Wonderland" />
+      <ClassComponent name="Bob" city="Builderland" /> */}
+      <EvenOdd num={12}/>
     </div>
   )
 }
