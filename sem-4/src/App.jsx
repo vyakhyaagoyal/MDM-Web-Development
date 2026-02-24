@@ -5,13 +5,15 @@ import ClassComponent from './ClassComponent'
 import Greet from './Greet'
 import React from 'react'
 import EvenOdd from './EvenOdd'
+import Counter from './Counter'
 
 export default function App() {
   return (
     <div>
       {/* <FunctionalComponent name="Alice" city="Wonderland" />
       <ClassComponent name="Bob" city="Builderland" /> */}
-      <EvenOdd num={12}/>
+      {/* <EvenOdd num={12}/> */}
+      <Counter/>
     </div>
   )
 }
