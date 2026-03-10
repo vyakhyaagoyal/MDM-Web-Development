@@ -1,11 +1,12 @@
-import About from './About'
 import './App.css'
-import FunctionalComponent from './FunctionalComponent'
-import ClassComponent from './ClassComponent'
-import Greet from './Greet'
-import React from 'react'
-import EvenOdd from './EvenOdd'
-import Counter from './Counter'
+// import FunctionalComponent from './FunctionalComponent'
+// import ClassComponent from './ClassComponent'
+// import Greet from './Greet'
+// import React from 'react'
+// import EvenOdd from './EvenOdd'
+// import Counter from './Counter'
+// import About from './About'
+import Header from './Header'
 
 export default function App() {
   return (
@@ -13,7 +14,8 @@ export default function App() {
       {/* <FunctionalComponent name="Alice" city="Wonderland" />
       <ClassComponent name="Bob" city="Builderland" /> */}
       {/* <EvenOdd num={12}/> */}
-      <Counter/>
+      {/* <Counter/> */}
+      <Header color="magenta"/>
     </div>
   )
 }
