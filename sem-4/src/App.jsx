@@ -7,7 +7,8 @@ import './App.css'
 // import Counter from './Counter'
 // import About from './About'
 // import Header from './Header'
-import Form1 from './Form1'
+// import Form1 from './Form1'
+import ReactRouter from './ReactRouter'
 
 export default function App() {
   return (
@@ -17,7 +18,8 @@ export default function App() {
       {/* <EvenOdd num={12}/> */}
       {/* <Counter/> */}
       {/* <Header color="magenta"/> */}
-      <Form1/>
+      {/* <Form1/> */}
+      <ReactRouter/>
     </div>
   )
 }
