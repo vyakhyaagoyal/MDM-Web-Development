@@ -4,6 +4,8 @@
 
 import { createRoot } from "react-dom/client";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import Courses from "./Courses";
+import Faculty from "./Faculty";
 
 function Home(){
     return <h1>Home Page</h1>
@@ -22,12 +24,16 @@ function ReactRouter() {
         <Link to="/">Home</Link> | 
         <Link to="/about">About</Link> | 
         <Link to="/contact">Contact</Link>
+        <Link to="/courses">Courses</Link>
+        <Link to="/faculty">Faculty</Link>
       </nav>
 
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/courses" element={<Courses />} />
+        <Route path="/faculty" element={<Faculty />} />
       </Routes>
     </BrowserRouter>
   );
