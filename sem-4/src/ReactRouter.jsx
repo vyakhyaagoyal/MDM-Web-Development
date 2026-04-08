@@ -22,10 +22,10 @@ function ReactRouter() {
     <BrowserRouter>
       <nav>
         <Link to="/">Home</Link> | 
-        <Link to="/about">About</Link> | 
-        <Link to="/contact">Contact</Link>
-        <Link to="/courses">Courses</Link>
-        <Link to="/faculty">Faculty</Link>
+        <Link to="/about"> About</Link> | 
+        <Link to="/contact"> Contact</Link> | 
+        <Link to="/courses"> Courses</Link> | 
+        <Link to="/faculty"> Faculty</Link>
       </nav>
 
       <Routes>
